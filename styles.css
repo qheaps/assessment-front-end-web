@@ -1,0 +1,103 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.checkbox {
+	vertical-align: middle; 
+	position: relative; 
+	bottom: 1px; 
+	float: left;
+}
+
+#career {
+	width: 50vw;
+	height: fit-content;
+	border: dashed black 4px;
+	display: flex;
+	flex-direction: column;
+	align-items: top;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#profile {
+	width: 30vw;
+	height: 90vh;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	/* display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around; */
+}
+
+.text {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#importantQuestion {
+	height: 300px;
+	width: 30vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#aboutUs {
+	height: 100px;
+	width: 200px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#radio {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.proButton {
+	color: yellow;
+	background-color: red;
+	font-size: 12px;
+	padding: 10px 24px;
+}
+
